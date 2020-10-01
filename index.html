@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Знакомство с тегами</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form action="#" method="GET">
+    <div>
+      <p>name</p>
+      <input tabindex="1" name="username" placeholder="username" type="text" >
+    </div>
+    <div>
+      <p>password</p>
+      <input type="password" tabindex="2" name="password" placeholder="password">
+    </div>
+    <div>
+      <p>phonenumber</p>
+      <input type="tel" tabindex="3">
+    </div>
+    <div>
+      <p>sex</p>
+      <div>
+        <input checked type="radio" name="gender" value="male"> male
+      </div>
+      <div>
+        <input type="radio" name="gender" value="female"> female
+      </div>
+    </div>
+    <div>
+      <p class="bigRed">Имущество</p>
+      <div>
+        <input checked type="checkbox" name="bike" value="yes"> Велик
+      </div>
+      <div>
+        <input type="checkbox" name="car" value="yes"> Машина
+      </div>
+      <div>
+        <input disabled type="checkbox" name="house" value="yes"> Дом
+      </div>
+    </div>
+    <div>
+      <p>Дополнителная иформация</p>
+      <div>
+        <textarea name="" id=""></textarea>
+      </div>
+    </div>
+    <div>
+      <p>Прикрепить фото</p>
+        <div>
+          <input type="file" value="usephoto">
+        </div>
+    </div>
+    <div>
+      <p>
+        Любимый цвет
+      </p>
+      <select name="color" id="">
+        <option value="red">Red</option>
+        <option selected value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </div>
+    <div>
+      <p>Действие</p>
+      <button type="submit">Отправить</button>
+      <button type="reset">Очистить</button>
+    </div>
+  </form>
+</body>
+</html>
